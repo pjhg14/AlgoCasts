@@ -7,6 +7,7 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
+    // Personal solution
     const revStr = []
 
     for (let x = str.length - 1; x >= 0; x--) {
@@ -15,6 +16,7 @@ function reverse(str) {
 
     return revStr.join("")
 
+    // Alt solution
     // return str.split("").reverse().join("")
 }
 

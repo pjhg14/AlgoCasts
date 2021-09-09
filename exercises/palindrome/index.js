@@ -8,7 +8,7 @@
 //   palindrome("abcdefg") === false
 
 function palindrome(str) {
-    // Personal work
+    // Personal solution
     return str === str.split("").reduce((rev, char) => char + rev ,"")
 
     // Alt solution
